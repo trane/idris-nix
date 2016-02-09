@@ -1,8 +1,8 @@
-module IRTS.CodegenEmpty(codegenEmpty) where
+module IRTS.CodegenNix(codegenNix) where
 
 import IRTS.CodegenCommon
 
-codegenEmpty :: CodeGenerator
-codegenEmpty ci = putStrLn "Not implemented"
+codegenNix :: CodeGenerator
+codegenNix ci = putStrLn "Not implemented"
 
 
