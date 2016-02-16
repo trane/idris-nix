@@ -21,7 +21,9 @@ Executable idris-nix
                 , mtl
                 , transformers
 
-  other-modules: IRTS.CodegenEmpty
+  other-modules: IRTS.CodegenNix
+               , IRTS.Generic.AST
+               , IRTS.Generic.CodegenEmpty
 
   if os(linux)
      cpp-options:   -DLINUX
